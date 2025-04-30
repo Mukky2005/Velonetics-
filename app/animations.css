@@ -1,0 +1,19 @@
+@keyframes circleReveal {
+  0% {
+    stroke-dashoffset: 170;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.circle-animation {
+  stroke-dasharray: 170;
+  animation: circleReveal 0.6s ease-out forwards;
+}
+
+.search-circle-animation {
+  stroke-dasharray: 95;
+  animation: circleReveal 0.6s ease-out forwards;
+}
+
